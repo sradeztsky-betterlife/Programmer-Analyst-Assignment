@@ -1,0 +1,35 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardWrapper .contactCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 550px;
+}
+
+.cardWrapper .contactCard .cardImage {
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.cardWrapper .contactCard .cardInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  cursor: pointer;
+}
